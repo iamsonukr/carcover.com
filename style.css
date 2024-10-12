@@ -36,8 +36,6 @@
     list-style: none;
     align-items: center;
     align-items: baseline;
-    
-
 }
 .nav{
     margin: 10px;
@@ -242,17 +240,66 @@ select {
     text-align: center;
     padding: 50px;
 }
+
+/* Categories */
+
+.categories{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .categories-head{
     text-align: center;
     font-size: 40px;
-
 }
+
 .categories-para{
     text-align: center;
 }
-.categories-image{
+
+.categories-boxes{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     text-align: center;
 }
+
+.box{
+    width: 215px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: red;
+    padding: 20px 20px;
+    position: relative;
+}
+.box>p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: poppins;
+
+}
+.box img{
+    position: relative;
+    width:100%;
+}
+
+.box .series{
+    font-size: 109px;
+    position: relative;
+    top: -70px;
+    left: 130px;
+
+    color: white;
+}
+
+
+
+
+
 .why-choose-us{
     text-align: center;
     padding: 20px;
